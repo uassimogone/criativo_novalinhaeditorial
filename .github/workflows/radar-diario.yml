@@ -5,6 +5,14 @@ on:
     # 06:00 em Brasília = 09:00 UTC
     - cron: '0 09 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'main.py'
+      - 'requirements.txt'
+      - 'src/**'
+      - '.github/workflows/radar-diario.yml'
 
 jobs:
   radar:
