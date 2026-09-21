@@ -14,7 +14,7 @@ def enviar_mensagem(texto: str):
     }, timeout=20).raise_for_status()
 
 def enviar_pautas(pautas):
-    enviar_mensagem("RADAR EDITORIAL — PAUTAS DO DIA\n\nResponda depois com: gostei / não gostei / motivo.")
+    enviar_mensagem("RADAR EDITORIAL — PAUTAS DO DIA\n\nFeedback sugerido: gostei / não gostei / tema bom, abordagem ruim / quero transformar em vídeo.")
     for i, p in enumerate(pautas, 1):
         texto = (
             f"PAUTA {i} — {p.get('pilar','')}\n"
@@ -24,8 +24,10 @@ def enviar_pautas(pautas):
             f"Ângulo sugerido: {p.get('angulo','')}\n"
             f"Formato: {p.get('formato','')}\n"
             f"Gancho: {p.get('gancho','')}\n"
+            f"Origem editorial: {p.get('origem_editorial','')}\n"
+            f"Sinal de validação: {p.get('sinal_validacao','')}\n"
             f"Nota editorial: {p.get('nota',0)}/10\n"
-            f"Validação: {p.get('validacao','AUTOMÁTICA')}\n"
+            f"Validação pessoal: {p.get('validacao','AUTOMÁTICA')}\n"
             f"Fonte: {p.get('url','')}"
         )
         enviar_mensagem(texto)
