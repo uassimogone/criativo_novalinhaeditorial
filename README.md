@@ -1,11 +1,31 @@
 # criativo_novalinhaeditorial
 
-Radar editorial experimental para a nova linha de conteúdo pessoal.
+Radar editorial semanal para a nova linha de conteúdo pessoal.
 
-## Fase 1 — laboratório editorial
-Nesta fase o projeto:
+## Operação
+- O radar roda aos sábados às 06:00 (Brasília).
+- Envia até 5 pautas ao Telegram.
+- O sábado fica reservado para aprovação, rejeição ou mudança de formato.
+- A etapa seguinte transforma as pautas aprovadas em criativos organizados até segunda-feira.
+
+## Formatos
+### Carrossel
+- formato preferencial para conteúdo explicativo, analítico e reflexivo;
+- ideal: 5 slides;
+- máximo: 7 slides;
+- pelo menos 1 e idealmente 2 slides com recurso visual forte;
+- padrão visual: capa com imagem + título e ao menos mais um slide com imagem/arte/dado visual.
+
+### Vídeo curto
+Usado quando a pauta depende mais da presença, oralidade, opinião ou interpretação pessoal de Uassi.
+
+### Post estático
+Exceção, reservado para ideias fortes que funcionem em uma única peça.
+
+## Fase atual — radar
+O projeto:
 - pesquisa pautas recentes;
-- acompanha referências editoriais como @tiohuli e @rob.correa;
+- usa referências editoriais como @tiohuli e @rob.correa;
 - identifica temas e formatos com sinais de validação pública;
 - classifica pelos pilares editoriais;
 - aplica o Manual Editorial Uassi;
@@ -13,17 +33,16 @@ Nesta fase o projeto:
 - seleciona no máximo 5 pautas;
 - envia as fichas de pauta ao Telegram.
 
-**Não publica conteúdo automaticamente em redes sociais.**
+**Este repositório não publica conteúdo automaticamente.**
 
-## Uso de criadores de referência
-Os criadores servem como sinal de demanda editorial. O sistema pode aproveitar tema,
-tese geral, pergunta ou estrutura quando houver aderência à linha editorial.
-
-Não copia texto, roteiro ou legenda e não faz paráfrase próxima.
-O tema é reconstruído a partir da voz, visão de mundo e exemplos próprios de Uassi.
-
-Quando não houver métricas públicas suficientes, o conteúdo é tratado apenas como
-referência editorial — não como conteúdo comprovadamente validado.
+## Próxima etapa
+Um gerador separado será responsável por:
+- transformar pautas aprovadas em carrosséis ou estáticos;
+- gerar textos slide a slide;
+- gerar/selecionar imagens e composições visuais;
+- criar legenda;
+- exportar os criativos finais;
+- preparar pacote de publicação para o publicador autônomo.
 
 ## Pilares
 1. Direito na vida real
@@ -32,7 +51,3 @@ referência editorial — não como conteúdo comprovadamente validado.
 4. Tecnologia, IA e mudanças no mundo
 5. Valores e mentalidade
 6. Lifestyle e experiências
-
-## Aprendizado
-O feedback humano é parte do projeto. Aprovações e rejeições devem ser transformadas
-em regras no manual editorial e, depois, em exemplos positivos/negativos.
