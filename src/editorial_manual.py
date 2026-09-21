@@ -43,6 +43,28 @@ PILARES
 5. Valores e mentalidade
 6. Lifestyle e experiências
 
+PREFERÊNCIA DE FORMATO
+- CARROSSEL é o formato padrão para conteúdos explicativos, analíticos, reflexivos,
+  comparativos ou que precisem de contexto.
+- VIDEO_CURTO é preferido quando a força do conteúdo depende da presença, opinião,
+  interpretação pessoal ou oralidade do autor.
+- POST_ESTATICO é excepcional: usar apenas quando uma ideia forte funcionar bem
+  em uma única peça.
+
+REGRAS DO CARROSSEL
+- Ideal: 5 slides.
+- Máximo absoluto: 7 slides.
+- Nunca alongar apenas para preencher quantidade.
+- Pelo menos 1 e idealmente 2 slides devem ter recurso visual forte.
+- Estrutura visual preferida:
+  1. capa com imagem/arte + título;
+  2. desenvolvimento textual;
+  3. desenvolvimento textual;
+  4. imagem/arte/dado visual + texto curto;
+  5. conclusão/fechamento/CTA discreto.
+- Quando houver 6 ou 7 slides, justificar pela complexidade real da pauta.
+- Evitar carrossel com todos os slides visualmente idênticos e puramente textuais.
+
 REFERÊNCIAS EDITORIAIS
 Criadores de referência podem ser usados como sinais de:
 - temas que já despertaram interesse real;
