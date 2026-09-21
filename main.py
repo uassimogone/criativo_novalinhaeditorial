@@ -1,14 +1,27 @@
 from src.history_manager import carregar, salvar
 from src.researcher import RadarEditorial
-from src.telegram_bot import enviar_pautas
+from src.telegram_bot import enviar_pautas, enviar_mensagem
 
 def main():
     historico = carregar()
     radar = RadarEditorial()
-    pautas = radar.pesquisar(historico)
+
+    try:
+        pautas = radar.pesquisar(historico)
+    except Exception as exc:
+        mensagem = f"RADAR EDITORIAL — ERRO NA PESQUISA\n\n{type(exc).__name__}: {exc}"
+        print(mensagem)
+        # Se o Telegram estiver configurado corretamente, o diagnóstico chega por lá.
+        enviar_mensagem(mensagem)
+        raise
 
     if not pautas:
-        print("Nenhuma pauta qualificada encontrada.")
+        mensagem = (
+            "RADAR EDITORIAL — EXECUÇÃO CONCLUÍDA\n\n"
+            "Nenhuma pauta atingiu os critérios editoriais nesta execução."
+        )
+        print(mensagem)
+        enviar_mensagem(mensagem)
         return
 
     enviar_pautas(pautas)
