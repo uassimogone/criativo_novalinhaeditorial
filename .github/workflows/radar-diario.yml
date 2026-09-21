@@ -1,9 +1,9 @@
-name: Radar Editorial Diario
+name: Radar Editorial Semanal
 
 on:
   schedule:
-    # 06:00 em Brasília = 09:00 UTC
-    - cron: '0 09 * * *'
+    # Sábado, 06:00 em Brasília = 09:00 UTC
+    - cron: '0 09 * * 6'
   workflow_dispatch:
   push:
     branches:
