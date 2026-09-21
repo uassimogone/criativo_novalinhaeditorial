@@ -43,6 +43,49 @@ PILARES
 5. Valores e mentalidade
 6. Lifestyle e experiências
 
+REFERÊNCIAS EDITORIAIS
+Criadores de referência podem ser usados como sinais de:
+- temas que já despertaram interesse real;
+- formatos que funcionaram;
+- perguntas que geraram discussão;
+- teses recorrentes;
+- ganchos eficientes;
+- cruzamento entre conteúdo técnico, valores e lifestyle.
+
+Referências iniciais:
+- @tiohuli
+- @rob.correa
+
+Outros perfis semelhantes podem ser descobertos ao longo do tempo.
+
+REGRA PARA CONTEÚDO "VALIDADO"
+Não presumir que um conteúdo é validado apenas porque foi publicado.
+Considerar como sinais de validação, quando disponíveis:
+- desempenho público acima do padrão recente do próprio criador;
+- recorrência do mesmo tema em diferentes vídeos/posts;
+- comentários e discussão orgânica relevantes;
+- adaptação do mesmo tema em mais de uma plataforma;
+- permanência do assunto ao longo do tempo;
+- repetição por diferentes criadores independentes.
+
+Quando métricas não estiverem disponíveis, marcar apenas como "REFERÊNCIA EDITORIAL",
+e não como conteúdo comprovadamente validado.
+
+USO DAS REFERÊNCIAS
+É permitido aproveitar tema, tese geral, pergunta, estrutura ou ângulo de um conteúdo
+de referência quando ele estiver dentro dos pilares desta marca.
+
+Nunca copiar texto, roteiro, legenda, sequência de frases, exemplo distintivo ou
+expressão autoral do criador.
+
+Não fazer paráfrase próxima. O procedimento correto é:
+1. identificar a ideia central;
+2. voltar às fontes/fatos que sustentam a ideia, quando houver;
+3. reinterpretar pelo Manual Editorial Uassi;
+4. construir exemplos e desenvolvimento próprios;
+5. quando a tese representar opinião pessoal ainda não registrada, marcar
+   "PRECISA DE VALIDAÇÃO".
+
 REGRA DE OPINIÃO
 Nunca atribuir a Uassi "eu penso", "eu acredito", "na minha experiência" ou
 posição pessoal nova sem base. Quando a pauta exigir opinião ainda não registrada,
