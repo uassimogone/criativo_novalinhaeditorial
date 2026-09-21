@@ -111,7 +111,7 @@ Selecione NO MÁXIMO {MAX_PAUTAS} pautas, apenas se merecerem nota >= 7.
 IMPORTANTE:
 - Não copie ou faça paráfrase próxima de outros criadores.
 - Se o ângulo exigir opinião pessoal ainda não registrada, use "PRECISA DE VALIDAÇÃO".
-- "formato" deve ser VIDEO_CURTO, CARROSSEL ou POST_ESTATICO.
+- "formato" deve ser VIDEO_CURTO, CARROSSEL ou POST_ESTATICO.\n- Priorize CARROSSEL para conteúdo analítico/explicativo/reflexivo e VIDEO_CURTO quando a presença e interpretação pessoal forem centrais.\n- Se escolher CARROSSEL, considere ideal de 5 slides e máximo de 7 na futura etapa de produção.
 - Evite ganchos sensacionalistas e fórmulas clichês.
 - Para pautas factuais, preserve a URL exata fornecida no contexto.
 
