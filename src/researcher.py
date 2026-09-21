@@ -94,8 +94,12 @@ Retorne APENAS JSON válido neste formato:
   }}
 ]
 """
+        erros = []
+        houve_resposta_valida = False
+
         for modelo in MODELOS_TEXTO:
             try:
+                print(f"Tentando modelo: {modelo}")
                 response = self.client.models.generate_content(
                     model=modelo,
                     contents=prompt,
@@ -105,10 +109,36 @@ Retorne APENAS JSON válido neste formato:
                         temperature=0.25,
                     ),
                 )
+
+                if not response.text:
+                    raise ValueError("modelo retornou resposta vazia")
+
                 data = json.loads(response.text)
-                if isinstance(data, list):
-                    return sorted(data, key=lambda x: x.get("nota", 0), reverse=True)[:MAX_PAUTAS]
+
+                if not isinstance(data, list):
+                    raise ValueError("resposta JSON não é uma lista")
+
+                houve_resposta_valida = True
+                qualificadas = [
+                    p for p in data
+                    if isinstance(p, dict) and p.get("nota", 0) >= 7
+                ]
+                return sorted(
+                    qualificadas,
+                    key=lambda x: x.get("nota", 0),
+                    reverse=True
+                )[:MAX_PAUTAS]
+
             except Exception as exc:
-                print(f"Falha com {modelo}: {exc}")
+                erro = f"{modelo}: {type(exc).__name__}: {exc}"
+                erros.append(erro)
+                print(f"Falha com {erro}")
                 time.sleep(2)
+
+        if not houve_resposta_valida:
+            raise RuntimeError(
+                "Todos os modelos Gemini falharam. "
+                + " | ".join(erros)
+            )
+
         return []
